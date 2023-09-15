@@ -1,11 +1,11 @@
-﻿using APICatalogo.Controllers;
+﻿using APICatalogo.Context;
 using APICatalogo.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Text.RegularExpressions;
 
-namespace APICatalogo.Context
+namespace APICatalogo.Controllers
 {
     [Route("[controller]")]
     [ApiController]
